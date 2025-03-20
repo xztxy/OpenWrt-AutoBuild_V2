@@ -15,8 +15,8 @@ cp -rf /rom/etc/openclash/core/* /etc/openclash/core
 #uci add_list system.ntp.server='cn.ntp.org.cn'
 # uci commit system
 
-# 修改主机名称为 OpenWrt-86
-# uci set system.@system[0].hostname='OpenWrt-86'
+# 修改主机名称为 Momo_op
+# uci set system.@system[0].hostname='Momo_op'
 
 # 设置默认主题
 uci set luci.main.mediaurlbase='/luci-static/argon' && uci commit luci
